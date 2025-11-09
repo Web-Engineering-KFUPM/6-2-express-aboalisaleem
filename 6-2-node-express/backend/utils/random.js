@@ -1,3 +1,4 @@
 export function getRandomInt(max) {
-  return {/*write code to here*/}
+  // Return a random integer from 0 to max - 1
+  return Math.floor(Math.random() * max);
 }
